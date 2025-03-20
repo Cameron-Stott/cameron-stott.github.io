@@ -1165,7 +1165,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg1.jpg");
+			background-image: url("../../images/bg2.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1702,23 +1702,23 @@ input, select, textarea {
 			transition: max-height 0.5s ease-out;
 		  }
 
-		  #sliderExo {
+		  #sliderA {
 			overflow: hidden;
 			padding-bottom: 4%;
 		  }
-		  #sliderExo figure {
+		  #sliderA figure {
 			position: relative;
 			width: 500%;
 			margin: 0;
 			left: 0;
-			animation: 20s sliderExo infinite;
+			animation: 20s sliderA infinite;
 		  }
-		  #sliderExo figure img {
+		  #sliderA figure img {
 			width: 20%; /* divide 100% by number of images in slideshow */
 			float: left;
 		  }
 
-		  @keyframes sliderExo { /*slideshow for Exo Arm*/
+		  @keyframes sliderA { /*slideshow for Exo Arm*/
 			0% {
 				left: 0;
 			}
@@ -1748,23 +1748,23 @@ input, select, textarea {
 			}
 		  }
 
-		  #sliderRob {
+		  #sliderB {
 			overflow: hidden;
 			padding-bottom: 4%;
 		  }
-		  #sliderRob figure {
+		  #sliderB figure {
 			position: relative;
 			width: 500%;
 			margin: 0;
 			left: 0;
-			animation: 40s sliderRob infinite;
+			animation: 40s sliderB infinite;
 		  }
-		  #sliderRob figure img {
+		  #sliderB figure img {
 			width: 20%; /* divide 100% by number of images in slideshow */
 			float: left;
 		  }
 
-		  @keyframes sliderRob { /*slideshow for Claw Robot*/
+		  @keyframes sliderB { /*slideshow for Claw Robot*/
 			0% {
 				left: 0;
 			}
@@ -1794,23 +1794,23 @@ input, select, textarea {
 			}
 		  }
 		
-		  #sliderLL {
+		  #sliderC {
 			overflow: hidden;
 			padding-bottom: 4%;
 		  }
-		  #sliderLL figure {
+		  #sliderC figure {
 			position: relative;
 			width: 500%;
 			margin: 0;
 			left: 0;
-			animation: 20s sliderLL infinite;
+			animation: 20s sliderC infinite;
 		  }
-		  #sliderLL figure img {
+		  #sliderC figure img {
 			width: 20%; /* divide 100% by number of images in slideshow */
 			float: left;
 		  }
 
-		  @keyframes sliderLL { /*slideshow for Line Launcher*/
+		  @keyframes sliderC { /*slideshow for Line Launcher*/
 			0% {
 				left: 0;
 			}
