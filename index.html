@@ -347,12 +347,6 @@
   .card-detail-inner ul{ padding-left:18px; color:var(--text-dim); font-size:13px; }
   .card-detail-inner li{ margin-bottom:6px; }
 
-  /* playable embed slot — for the terminal simulator */
-  .card-embed{
-    width:100%; aspect-ratio:16/9; border-radius:10px; overflow:hidden;
-    margin-bottom:16px; flex-shrink:0; position:relative;
-    background:#050508; border:1px solid var(--border);
-  }
   .embed-titlebar{
     display:flex; align-items:center; gap:6px; padding:8px 10px;
     background:#0a0912; border-bottom:1px solid var(--border);
@@ -610,23 +604,26 @@
     </article>
 
     <article class="card" data-cat="software">
-      <div class="card-embed">
-        <div class="embed-titlebar"><span></span><span></span><span></span></div>
-        <div class="embed-body">
-          <div class="prompt">./terminal-sim<span class="cursor"></span></div>
-        </div>
-      </div>
+      <div class="card-image"><img src="images/terminal.gif" alt="Io-1 CubeSat"></div>
       <div class="card-body">
         <div class="card-top">
           <span class="card-index">SPEC. 02</span>
           <span class="tag">Software &amp; Automation</span>
         </div>
         <h3>Terminal-Style Simulator</h3>
-        <p class="preview">Self-taught personal project combining programming, UI design and interactive systems in Godot.</p>
-        <div class="card-foot"><span>Personal</span><span class="go">More detail <span class="chevron">▾</span></span></div>
+        <p class="preview">A fully navigable terminal simulator inspired by the retro-futuristic computer systems of the Fallout universe.</p>
+        <div class="card-foot"><span>~1 week (ongoing updates)</span><span class="go">More detail <span class="chevron">▾</span></span></div>
         <div class="card-detail">
           <div class="card-detail-inner">
-            <p>An authentic terminal-style simulator built as a self-directed learning project — combining programming logic, interface design and interactive systems, developed independently in Godot.</p>
+            <p>Built from the ground up in Godot, the project focuses on recreating the distinctive terminal UI as a functional interactive interface rather than simply a visual imitation.</p>
+            <ul>
+              <li>The program features multiple screens, menus, selectable files, interactive prompts and hidden content, all wrapped in the nostalgic green glow of a monochrome CRT monitor.</li>
+              <li>I used references from across the Fallout games and TV series to recreate the visual language, typography, layouts and quirks of the original interfaces.</li>
+              <li>Give it a try here: <br> <a class="project-link" href="fallout-terminal-emulator\fallout-terminal-emulator.html" target="_blank" rel="noopener">(Fallout Terminal Emulator)</a></li>
+              <p>HINT: There are a couple of secret screens hidden in this terminal. Try entering the following secret codes into the command line:</p>
+              <p>"The House always wins"</p>
+              <p>"Initiate Phase two"</p>
+            </ul>
           </div>
         </div>
       </div>
