@@ -441,6 +441,13 @@
   display: inline-flex;
   transition: color .2s ease;
 }
+
+.tag.wip{ display:inline-flex; align-items:center; gap:6px; }
+.tag.wip::before{
+  content:''; width:6px; height:6px; border-radius:50%;
+  background:var(--accent); box-shadow:0 0 8px var(--accent);
+  animation: twinkle 2s ease-in-out infinite;
+}
 </style>
 </head>
 <body>
@@ -619,7 +626,7 @@
             <ul>
               <li>The program features multiple screens, menus, selectable files, interactive prompts and hidden content, all wrapped in the nostalgic green glow of a monochrome CRT monitor.</li>
               <li>I used references from across the Fallout games and TV series to recreate the visual language, typography, layouts and quirks of the original interfaces.</li>
-              <li>Give it a try here: <br> <a class="project-link" href="fallout-terminal-emulator\fallout-terminal-emulator.html" target="_blank" rel="noopener">(Fallout Terminal Emulator)</a></li>
+              <li>Give it a try here: <br> <a class="project-link" href="fallout-terminal-emulator/fallout-terminal-emulator.html" target="_blank" rel="noopener">(Fallout Terminal Emulator)</a></li>
               <p>HINT: There are a couple of secret screens hidden in this terminal. Try entering the following secret codes into the command line:</p>
               <p>"The House always wins"</p>
               <p>"Initiate Phase two"</p>
@@ -630,27 +637,26 @@
     </article>
 
     <article class="card" data-cat="wip">
-      <div class="card-image"><span class="icon">▤</span><span class="label">Add image</span></div>
+      <div class="card-image">
+        <span class="icon">⚙</span>
+        <span class="label">In progress</span>
+      </div>
       <div class="card-body">
         <div class="card-top">
           <span class="card-index">SPEC. 03</span>
-          <span class="tag">Work in Progress</span>
+          <span class="tag wip">Work in Progress</span>
         </div>
-        <h3>TBC</h3>
-        <p class="preview">Add preview text</p>
-        <div class="card-foot"><span>2024 — Present</span><span class="go">More detail <span class="chevron">▾</span></span></div>
+        <h3>Currently Building</h3>
+        <p class="preview">Next project coming soon...</p>
+        <div class="card-foot"><span>2026</span><span class="go">Check back soon <span class="chevron">▾</span></span></div>
         <div class="card-detail">
           <div class="card-detail-inner">
-            <p>Add paragraph</p>
-            <ul>
-              <li>Add bullet point</li>
-              <li>Add bullet point</li>
-              <li>Add bullet point</li>
-            </ul>
+            <p>This one's still in the workshop. I'll swap this out for real detail, images and links as soon as there's something worth showing.</p>
           </div>
         </div>
       </div>
     </article>
+  
   </div>
 </section>
 
